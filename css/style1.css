@@ -1,0 +1,113 @@
+html {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    height: 100%;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 15px;
+  }
+  
+  .navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    background: #7a52b3;
+  }
+  
+  .navbar__wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .hamb {
+    display: none;
+  }
+  
+  .popup {
+    display: none;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu > li > a {
+    text-decoration: none;
+  }
+  
+  .navbar__wrap .menu {
+    display: flex;
+  }
+  
+  .navbar__wrap .menu > li {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .navbar__wrap .menu > li > a {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .navbar__wrap .menu > li > a:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+.box {
+    background: url('../img/wallhaven-g8g6re.png') center center/cover no-repeat;
+    position:absolute;
+    width: 1470px;
+    height: 870px;
+    color: white;
+    font-family:"Roboto- Black";
+}
+
+.iam:hover {
+    filter: blur(5px);
+
+}
+
+h1 {
+    color: white;
+    margin-top: 70px;
+}
+
+.rex  img {
+    width: 100px;
+    height: 50px;
+    cursor: pointer; 
+    outline: none;
+    margin-top: 10px;
+}
+
+.rex:hover {
+  filter:grayscale(50%);
+}
+
+.nfkbwf {
+    color: purple;
+    font-size: 25px;
+}
